@@ -3,14 +3,19 @@
 <head>
 	<title>DevOps Free</title>
 	<link rel="stylesheet" type="text/css" href="Style.css">
+	<script src="parallax.js"></script>
 </head>
 <body>
 	<section>
 		<div class="wrapper">
-			<h1>
+			<h1 id="home">
 				DevOps300
 			</h1>
 		</div>
 	</section>
+	<script>
+		var scene = document.getElementById('home');
+		var parallaxInstance = new Parallax(scene);
+	</script>
 </body>
 </html>
